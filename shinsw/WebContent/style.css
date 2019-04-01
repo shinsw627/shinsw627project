@@ -1,0 +1,45 @@
+html {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    display: block;
+}
+h1 {
+    color: aquamarine;
+}
+.Earth{
+	height: 1000px;
+    position: relative;
+    background-image: url(img/sunrise1.jpg);
+    background-size: auto 1000px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.sky{
+	height: 1697px;
+    position: relative;
+    background-image: url(img/sky.jpg);
+    background-size: auto 1697px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.sea{
+    position: relative;
+    height: 6000px;
+    background: linear-gradient(#c2f9fe,#0152e2);
+    background-position: top center;
+}
+.sea2 {
+    height: 1673px;
+    position: relative;
+    background-image: url(img/jellyfish.jpg);
+    background-size: auto 1673px;
+    background-position: top center;
+    overflow: hidden;
+}
+section {
+
+}
