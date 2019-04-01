@@ -8,6 +8,16 @@ body {
 h1 {
     color: aquamarine;
 }
+h2 {
+	
+}
+.section1{
+	height: 200px;
+	position: relative;
+	background-image: white;
+	background-position: center;
+	text-align: center;
+}
 .Earth{
 	height: 1000px;
     position: relative;
@@ -18,13 +28,10 @@ h1 {
     overflow: hidden;
 }
 .sky{
-	height: 1697px;
-    position: relative;
-    background-image: url(img/sky.jpg);
-    background-size: auto 1697px;
+	position: relative;
+    height: 4000px;
+    background: linear-gradient(#1b63ab,#7fa5d2,#b7c6cd,#5f8cc3);
     background-position: top center;
-    background-repeat: no-repeat;
-    overflow: hidden;
 }
 .sea{
     position: relative;

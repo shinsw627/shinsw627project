@@ -16,10 +16,11 @@
         </div>
     </header>
     <section class="Earth">
-    	<div class="section1">
-    		<h3>Earth</h3>
-    	</div>
+
     </section>
+    <div class="section1">
+    	<h2>Earth</h2>
+    </div>
     <div class="sky"></div>
     <div class="sea"></div>
     <script src="js/jquery-3.3.1.min.js"></script>
