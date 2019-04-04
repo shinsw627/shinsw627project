@@ -24,9 +24,9 @@ h2 {
 .Universe{
 	height: 4000px;
     position: relative;
-    background-image: url(img/star0.jpg);
-    background-size: auto 4000px;
-    background-position: center;
+    background: black;
+    background-size: 4000px;
+    background-position: top center;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -35,25 +35,57 @@ h2 {
 	width: 800px;
 	height: 500px;
     position: absolute;
-	top: 40%;
-	left: 20%;
-	z-index: 2;
+	top: 55%;
+	left: 10%;
+	z-index: 3;
+}
+.imgmoon{
+	width: 480px;
+	height: 300px;
+	position: absolute;
+	z-index:3;
 }
 .redmoon{
 	width: 300px;
 	height: 300px;
 	position: absolute;
-	top: 3000px;
-	left: 450px;
+	top: 90%;
+	left: 30%;
+}
+.imgredmoon{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	z-index:3;
 }
 
 .asteroid1{
 	width: 470px;
 	height: 280px;
     position: absolute;
-	top: 25%;
+	top: 0%;
 	left: 1%;
-	z-index: 3;
+	z-index: 2;
+}
+.imgasteroid1{
+	width: 300px;
+	height: 170px;
+	position: absolute;
+	z-index:2;
+}
+.asteroid1-1{
+	width: 470px;
+	height: 280px;
+    position: absolute;
+	top: 20%;
+	left: 60%;
+	z-index: 2;
+}
+.imgasteroid1-1{
+	width: 470px;
+	height: 280px;
+	position: absolute;
+	z-index:2;
 }
 .asteroid2{
 	width: 400px;
@@ -63,36 +95,132 @@ h2 {
 	left: 60%;
 	z-index: 2;
 }
+.imgasteroid2{
+	width: 400px;
+	height: 280px;
+	position: absolute;
+	z-index:3;
+}
+.asteroid2-1{
+	width: 400px;
+	height: 280px;
+    position: absolute;
+	top: 65%;
+	left: 50%;
+	z-index: 2;
+}
+.imgasteroid2-1{
+	width: 400px;
+	height: 280px;
+	position: absolute;
+	z-index:3;
+}
 .asteroid3{
 	width: 200px;
 	height: 160px;
     position: absolute;
-	top: 40%;
+	top: 90%;
 	left: 80%;
 	z-index: 1;
 }
-
-.asteroid4{
-	width: 150px;
-	height: 140px;
+.imgasteroid3{
+	width: 200px;
+	height: 160px;
+	position: absolute;
+}
+.asteroid3-1{
+	width: 200px;
+	height: 160px;
     position: absolute;
-	top: 10%;
+	top: 15%;
+	left: 5%;
+	z-index: 1;
+}
+.imgasteroid3-1{
+	width: 200px;
+	height: 160px;
+	position: absolute;
+}
+.asteroid4{
+	width: 180px;
+	height: 160px;
+    position: absolute;
+	top: 30%;
 	left: 25%;
 	z-index: 1;
+}
+.imgasteroid4{
+	width: 100px;
+	height: 80px;
+	position: absolute;
+	z-index:3;
+}
+.asteroid4-1{
+	width: 180px;
+	height: 160px;
+    position: absolute;
+	top: 5%;
+	left: 45%;
+	z-index: 1;
+}
+.imgasteroid4-1{
+	width: 100px;
+	height: 80px;
+	position: absolute;
+	z-index:3;
 }
 .asteroid5{
 	width: 370px;
 	height: 290px;
     position: absolute;
-	top: 3000px;
+	top: 90%;
 	z-index: 1;
+}
+.imgasteroid5{
+	width: 160px;
+	height: 120px;
+	position: absolute;
+}
+.asteroid5-1{
+	width: 370px;
+	height: 290px;
+    position: absolute;
+	top: 115%;
+	left: 25%;
+	z-index: 1;
+}
+.imgasteroid5-1{
+	width: 120px;
+	height: 90px;
+	position: absolute;
 }
 .asteroid6{
 	width: 400px;
 	height: 320px;
     position: absolute;
-	top: 2000px;
-	z-index: 1;
+	top: 88%;
+	left: 60%;
+	z-index: 3;
+}
+.imgasteroid6{
+	width: 200px;
+	height: 120px;
+	position: absolute;
+	z-index:3;
+}
+.asteroid6-1{
+	width: 400px;
+	height: 320px;
+    position: absolute;
+	top: 90%;
+	left: 60%;
+	z-index: 3;
+}
+.imgasteroid6-1{
+	width: 200px;
+	height: 120px;
+	position: absolute;
+	z-index:3;
 }
 .section1{
 	height: 200px;
@@ -103,18 +231,25 @@ h2 {
 }
 .Earth{
 	height: 1000px;
+	width: 100%;
     position: relative;
     background-image: url(img/sunrise1.jpg);
-    background-size: auto 1000px;
-    background-position: center;
+    background-size: auto;
+    background-position: top center;
     background-repeat: no-repeat;
-    overflow: hidden;
-}
+    }
 .sky{
 	position: relative;
     height: 4000px;
     background: linear-gradient(#1b63ab,#7fa5d2,#b7c6cd,#5f8cc3);
     background-position: center;
+}
+.gull{
+	width: 300px;
+	height: 240px;
+    position: absolute;
+	top: 30%;
+	z-index: 2;
 }
 .sea{
     position: relative;
